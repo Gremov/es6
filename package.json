@@ -1,0 +1,26 @@
+{
+  "name": "es6-study",
+  "version": "1.0.0",
+  "description": "es6 js learning",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.4",
+    "underscore": "^1.8.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gremov/es6.git"
+  },
+  "author": "Gennadiy Remizov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gremov/es6/issues"
+  },
+  "homepage": "https://github.com/Gremov/es6#readme"
+}
