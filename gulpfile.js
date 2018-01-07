@@ -1,4 +1,16 @@
 const gulp = require('gulp');
-gulp.task('default', function () {
+const babel = require('gulp-babel');
 
+
+gulp.task('default', function () {
+    // for Node
+    gulp.src('es6/**/*.js')
+        .pipe(babel())
+        .pipe(gulp.dest('dist'));
+
+    // for client-browser js
+
+    gulp.src('public/es6/**/*.js')
+        .pipe(babel())
+        .pipe(gulp.dest('public/dist'));
 });
