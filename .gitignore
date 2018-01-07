@@ -1,0 +1,15 @@
+# npm debug logs
+npm-debug.log*
+*.log
+
+# Project dependencies
+node_modules
+
+# Attributes OSX folder
+.DS_Store
+
+# Temporary files
+*.tmp
+*~
+
+*.bak
