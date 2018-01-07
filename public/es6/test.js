@@ -7,9 +7,9 @@ const sentences = [
 function say({subject, verb, object}) {
     // template strings
     console.log(`${subject} ${verb} ${object}`);
-}
+};
 // es6: for..of
 
 for(let s of sentences) {
     say(s);
-}
+};

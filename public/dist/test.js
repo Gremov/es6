@@ -10,7 +10,7 @@ function say(_ref) {
 
     // template strings
     console.log(subject + ' ' + verb + ' ' + object);
-}
+};
 // es6: for..of
 
 var _iteratorNormalCompletion = true;
@@ -37,3 +37,5 @@ try {
         }
     }
 }
+
+;
