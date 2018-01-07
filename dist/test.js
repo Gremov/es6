@@ -8,9 +8,9 @@ function say(_ref) {
         verb = _ref.verb,
         object = _ref.object;
 
-    // templates row
-    console.log('${subject} ${verb} ${object}');
-}
+    // template strings
+    console.log(subject + ' ' + verb + ' ' + object);
+};
 // es6: for..of
 
 var _iteratorNormalCompletion = true;
@@ -37,3 +37,5 @@ try {
         }
     }
 }
+
+;
